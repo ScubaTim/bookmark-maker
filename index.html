@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark Maker App</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+</head>
+
+<body onLoad='fetchBookmarks()'>
+
+<div class='wrap'>
+  <header>
+    <h1>Bookmark Your Favorite Sites</h1>
+  </header>
+
+  <form id='myForm'>
+    <label>Site Name</label>
+    <input id='siteName' type='text' class='textField' placeholder='Site Name'>
+    <label>Link</label>
+    <input id='siteUrl' type='text' class='textField' placeholder='Site URL'>
+    <button class='button' id='submit' type='submit'>Submit</button>
+    <div id='bookmarksResults'></div>
+  </form>
+</div>
+<footer>
+  <h6 id='copywrite'>Copywrite Of The Bitch 2018 @</h6>
+</footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
